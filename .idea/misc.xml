@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/drawable/boder_bt_category.xml" value="0.12" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/drawable/boder_search.xml" value="0.12" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/drawable/border_button.xml" value="0.1045" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/drawable/border_input.xml" value="0.1165" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/drawable/border_text_price.xml" value="0.12" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.1165" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/activity_category.xml" value="0.16666666666666666" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/activity_detail.xml" value="0.22" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/activity_forgot_pass.xml" value="0.1796875" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/activity_insert_update_product.xml" value="0.1796875" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/dialog_category.xml" value="0.17346014492753623" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/layout_category_item.xml" value="0.1" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/layout/layout_product_item.xml" value="0.1796875" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/menu/add_home.xml" value="0.1796875" />
+        <entry key="..\:/CaoDangFPT/AndroidSever/Mob403_asm/Android_asm/app/src/main/res/menu/setting_item.xml" value="0.17864583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

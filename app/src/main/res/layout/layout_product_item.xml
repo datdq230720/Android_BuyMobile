@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_item_product"
+    android:layout_width="155dp"
+    android:layout_height="190dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#F48B98"
+    app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/product_item_iv"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                tools:srcCompat="@drawable/teddy_bear" />
+
+            <TextView
+                android:id="@+id/product_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Teddy Bear"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="15$"
+                android:textColor="#DF0054"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/detail_back_home_iv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_baseline_back" />
+
+    <ImageView
+        android:id="@+id/detail_iv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/teddy_bear" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#DF0054">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/detail_price"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="15$"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/border_text_price"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:layout_gravity="end"/>
+            <TextView
+                android:id="@+id/detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teddy Bear"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingHorizontal="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/detail_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số lượng: 12"
+                android:paddingHorizontal="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/detal_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teddy"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingHorizontal="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mô tả: Gấu Teddy lông sợi có 2 màu: vàng và socola, với chất liệu lông sợi kết hợp với chiếc nơ vàng óng, Gấu rất chất và xinh."
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:paddingHorizontal="20dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/detail_by_bt"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/border_button"
+                android:text="BY NOW"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
